@@ -1,0 +1,26 @@
+Tecnologias Utilizadas:
+Backend:
+Node.js v14.17.0
+Express.js v4.17.1
+PostgreSQL v13.3
+bcrypt v5.0.1 para criptografia de senha
+jsonwebtoken v8.5.1 para geração e validação de tokens JWT
+
+Frontend:
+React v17.0.2
+Axios v0.21.1 para fazer requisições HTTP para o backend
+Banco de Dados:
+PostgreSQL v13.3
+
+Autor: Gabriel Dzuman
+
+Como Rodar o Projeto Localmente:
+Certifique-se de ter o Node.js e o PostgreSQL instalados em seu sistema.
+Clone o repositório do projeto em seu computador.
+Navegue até a pasta do projeto.
+Configure o banco de dados PostgreSQL com as credenciais corretas e execute o script DDL fornecido para criar as tabelas necessárias.
+No terminal, navegue até a pasta do backend (cd backend) e execute npm install para instalar as dependências do backend.
+Em seguida, execute npm start para iniciar o servidor backend.
+No terminal, navegue até a pasta do frontend (cd frontend) e execute npm install para instalar as dependências do frontend.
+Em seguida, execute npm start para iniciar o servidor de desenvolvimento do frontend.
+O projeto estará rodando localmente. Abra um navegador e acesse http://localhost:3000 para visualizar a aplicação.
